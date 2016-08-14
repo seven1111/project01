@@ -1,0 +1,96 @@
+﻿html{overflow-y: scroll;}
+*{margin:0; border:0; padding:0;}
+
+#lay_out{margin: 0 auto; width: 1200px;}
+#middle{margin: 0 auto; width:100%; }
+ /* 비쥬얼배경이미지와 헤더 */
+#ko_Svisual{height:240px; background:url(../images/bg_svisual_01.png) no-repeat 59% 30%;}
+	.title{width:428px; height:83px; padding-top:50px; display:block;}
+	.title h1{font-size:45px; color:#ffffff;padding-left:70px; height:70px;float:left; line-height:78px; font-family:NanumGothic,'맑은 고딕','Malgun Gothic';}
+	.title h1 span{background:url(../images/common/bg_title.png) no-repeat 0 0; margin-right:13px;
+	width:71px;height:67px;display:block; float:left;}
+	.title p{font-size:14px; color:#ffffff; display:block; 
+	white-space:nowrap; clear:both; margin-left:157px; 
+	letter-spacing:1px;}
+/* 탭메뉴 */
+    #ko_Slnb{height:63px; background:#45495B; width:100%; margin-top:-33px;}
+	#ko_Slnb>#nav>li{padding:22px 12px; width:129px; height:19px;}
+	#ko_Slnb>#nav>li>a{color:#ffffff; font-size:16px; text-align:center;}
+	#ko_Slnb>#nav>li.tab1{background-color:#ffffff;border-left:1px solid #aaaaaa;}
+	#ko_Slnb>#nav>li.tab1>a.sub_head{color:#000000; font-weight:bold;}
+	#ko_Slnb>#nav>li:hover{background-color:#ffffff;}
+	#ko_Slnb>#nav>li:hover a.sub_head{color:#000000;font-weight:bold;}
+/* 	#ko_Slnb>#nav>li.tab2:hover~li.tab1{background-color:#45495B;} */
+
+/* 탭메뉴 서브메뉴 */
+	#ko_Slnb #nav li.tab1 ul.sub01{width:1168px; margin-top:19px;border-bottom:1px solid #aaaaaa; border-left:1px solid #aaaaaa;border-right:1px solid #aaaaaa; margin-left:-13px; 
+	padding:20px 15px; display:block; color:#333333;}
+	#ko_Slnb #nav li.tab1 ul.sub01 li{display:inline;padding:15px 15px;}
+	#ko_Slnb #nav li.tab1 ul.sub01 li a{ display:block;float:left;  color:#333333; margin-left:50px;}
+	#ko_Slnb #nav li.tab1 ul.sub01 li a.fir{text-decoration:underline;}
+	#ko_Slnb #nav li.tab1 ul.sub01 li a:hover{text-decoration:underline;}
+	/* 	#ko_Slnb>#nav>li.tab2:hover~li.tab1>ul.sub01{display:none;} */
+	
+/* 중간 콘텐츠시작	 */
+	/* 콘테츠 head */
+	#section{width:100%; margin: 0 auto; margin-top:77px;}
+	#content .ko_title{width:1200px; margin:0 auto;}
+	#content .ko_title h1{margin-bottom:15px; font-weight:normal;}
+	#content .ko_title p{margin-left:-10px;}
+	#content .ko_title p a{display:block; float:left; color:#575757; font-size:14px; line-height:1; padding-left:11px; padding-right:10px;}
+	#content .ko_title p a.last_lnk{text-decoration:underline;  background:url(../images/common/bg_mnew.png) no-repeat;}
+	#content .ko_title p a.lnk{background:url(../images/common/bg_mnew.png) no-repeat;}
+	#content .ko_title .location_btnbox{float:right;}
+	#content .ko_title .location_btnbox a{display:block; float:left; padding-left:2px;color:#575757; height: 21px; width:77px;}
+	#content .ko_title .location_btnbox a>img{height: 21px; width:26px; overflow:hidden;
+	display:inline; margin-right: 3px; vertical-align:top;}
+	
+	/* 블루박스 */
+	#content .info_box{height:195px; width:1200px; background-color:#07469b; margin-top:30px; margin-bottom:80px;}
+	#content .info_box .left_blue{height:195px; width:350px; background:url(../images/openinfo_bg.png) no-repeat;}
+	#content .info_box .left_blue span{visibility:hidden;}
+	#content .text_box{width:730px; height:174px; padding:10px 60px;}
+	#content .text_box>ul>li{color:#ffffff;}
+	#content .text_box>ul>li>strong{text-align:left; width:20%; display: table-cell; padding:24px 0; vertical-align:middle; font-size:17px; font-weight:bold;}
+	#content .text_box>ul>li>span{text-align:left;display: table-cell; padding:24px 0; vertical-align:middle; font-size:15px;}
+	#content .text_box>ul>li:first-child{ border-bottom:1px solid #0f60ad;}
+	
+	/* 정보공개 책임관 테이블*/
+	#content h3{color:#005295; font-size:24px; line-height:30px; margin:25px 0 10px; font-weight:normal;}
+	table.tb_01{width:1200px; text-align:center; border-top:3px solid #000000; border-bottom:1px solid #dddddd; }
+	table.tb_01 caption{visibility:hidden; font-size:0px;}
+	table.tb_01 th, table.tb_01 td{border-bottom:1px solid #cccccc;  border-left:1px solid #cccccc; padding:13px 15px; color:#444444;}
+	table.tb_01 th:first-child, table.tb_01 td:first-child{ border-left:none;}
+	table.tb_01 th.span{background-color:#f1f1f1;}
+	table.tb_01 th{ font-weight:normal; color:#333333;}
+
+
+	/* 공개형태 */
+	h2{line-height:40px; margin:35px 0 10px; font-size:32px;}
+	dl{margin-bottom:10px;}
+	dt{font-size:24px; color:#005295; line-height:30px; margin:35px 0 10px;}
+	/* 정보공개테이블 */
+	table.tb02 td{text-align:left;}
+	table.tb02 li{background:url(../images/common/list_bul1.png) no-repeat scroll 0 9px;
+    color: #444;
+    font-size: 14px;
+    margin: 3px 0;
+    padding-left: 11px;}
+	
+	/* 담당자박스 */
+	div.charge_box{width:1160px; height:63px; border:1px solid #aaaaaa; margin-top:50px;padding:20px; text-align:center; margin-bottom:100px;}
+	div.charge_box p{float:left; font-size:15px; line-height:63px; padding-right:34px; margin-right:20px; }
+	div.charge_box p.cha01{border-right:1px solid #aaaaaa;}
+	div.charge_box p.cha02 span{color:#FF4C4C; }
+	div.charge_box p.cha02{float:right; }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -65,6 +65,44 @@ ul li{list-style:none;}
 	a.lnb_menu_03:hover{text-decoration:underline;}
 	a.lnb_menu_04:hover{text-decoration:underline;}
 	
+	    /* 서브메뉴 헤드 왼쪽 네모막대  */
+	#menu_tab02 #nav li .sub_m1 .sub_h01::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 15px;
+    right: 28px;
+    position: relative;
+    top: -18px;
+    width: 3px;}
+	#menu_tab02 #nav li .sub_m2 .sub_h02::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 15px;
+    right: 28px;
+    position: relative;
+    top: -18px;
+    width: 3px;}
+	#menu_tab02 #nav li .sub_m3 .sub_h03::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 15px;
+    right: 28px;
+    position: relative;
+    top: -18px;
+    width: 3px;}
+	#menu_tab02 #nav li .sub_m4 .sub_h04::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 15px;
+    right: 28px;
+    position: relative;
+    top: -18px;
+    width: 3px;}
+	
 	
 	/* lnb  서브메뉴 */
 	#nav{position:relative;}
