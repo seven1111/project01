@@ -95,8 +95,6 @@
 	.snbNav3 .snbSubCont3 .issued dd.btnBox a{margin-left: 2px; display: inline-block; padding: 7px 10px; font-size: 12px; line-height: 1;font-weight: bold; background: #666666; color: #ffffff;  text-decoration: none;}
 	.snbNav3 .snbSubCont3 .issued dd.btnBox a:hover{text-decoration: underline;}
 
-//asdasdasd
-
 	.snbNav4{display:none; position: absolute; top: 34px; left: -60px; padding:11px 6px 6px 6px; width: 778px; height: 331px; background:url(../images/bgSnb4.png) no-repeat left top; z-index: 100; overflow: hidden;}
 	.snbNav4 .snbSubCont{float: left; width: 580px;}
 	.snbNav4 .snbSubCont .snbSubCont4{padding: 63px 55px 0 54px; overflow: hidden;}
