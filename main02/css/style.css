@@ -1,0 +1,267 @@
+﻿/*  #lay_out{background: url(../images/back.png) no-repeat; width: 1200px; height: 2708px; margin: 0 auto;}  */
+
+
+a{display:block; text-decoration:none;}
+ul{list-style:none;}
+ul li{list-style:none;}
+.cf:after{
+	content: ' ';
+	display: block;
+	clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+html{overflow-y: scroll;}
+em{font-style:normal;}
+
+/* 레이아웃 큰 박스 속성 */
+#lay_out{margin: 0 auto; width: 1200px; height: 2571px;}
+
+/* 메인비쥬얼 */
+#re_visual{height:618px; overflow:hidden; position:relative;width:100%; background:url(../images/bg_mvisual.jpg) no-repeat 50% 0;}   
+ /* 비쥬얼 센터시작 */
+ /* 이미지 */
+#re_visual_inner{width:1000px; height:450px; margin:0 auto;
+background:url(../images/bg_figcaption.png) repeat; margin-top:55px;}
+	.re_visual_img img{width:480px;height:450px; overflow:hidden;}
+	/* 가운데 기사 */
+	.middle_txt{width:250px;height:390px; padding:30px 50px;}
+	.middle_txt span.stit{color: #d81900;
+    display: block;
+    font-size: 11px;
+    line-height: 1.2;
+    margin-bottom: 5px;}
+	.middle_txt span.stit em{display:block; font-style:normal;}
+	.middle_txt h2{font-size: 28px;
+    height: 72px;
+    line-height: 1.3;
+    margin-bottom: 18px;
+    white-space: normal;
+    color:#ffffff; display: block;}
+	.middle_txt span.text{ color: #bdc0c1;
+    display: block;
+    font-size: 14px;
+    height: 52px;
+    line-height: 18px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    overflow: hidden;}
+	.middle_txt p.more{margin-top:50px; width:128px; border:1px solid #6b6c70;}
+	.middle_txt p.more a{background:url(../images/bg_more.svg) no-repeat; background-position:60% 50%; color: #fff;
+    display: block;
+    font-size: 12px; line-height: 36px;
+    padding: 0 10px;
+    text-align: left;
+	 transition: all 0.4s ease-in-out 0s;
+	 -ms-transition: all 0.4s ease-in-out 0s;
+}
+	.middle_txt p.more a:hover{background-position:80% 50%;}
+	/* 오른쪽 탭메뉴 */
+	.tab_zone{width:170px; height:450px; background-color:#2B2C32;}
+	#re_visual_inner .tab_zone h2 a.lnk_pro{
+    border: 1px solid #636467;
+    color: #fff;
+    display: block;
+    font-size: 17px;
+    height: 126px;
+	width:120px;
+	margin:15px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+	#re_visual_inner .tab_zone h2 a.lnk_pro b{ display: block;
+    line-height: 1.2;
+    padding-top: 45px;}
+	#re_visual_inner .tab_zone h2 a.lnk_pro b em{display:block; vertical-align:middle; font-style:normal;}
+	
+	/* 탭메뉴 리스트 */
+	#tab_list{margin-top:30px; display:block;}
+	#tab_list li{width:100%; height:34px;}
+	#tab_list li.fir_tab{background-color:#D81900;}
+	#tab_list li a{height: 34px; line-height: 34px;
+    padding: 0 30px; text-align: left; color:#ffffff; font-size:12px; letter-spacing:-1px; background:url(../images/tab_red.png)no-repeat;background-position:14px 13px;}
+	#tab_list li a:hover{background-color:#D81900;}
+	
+    
+
+  
+  
+#section{width:100%; margin:0 0 0px;}
+  
+#re_box1{width:1200px; height:290px; margin-bottom: 23px;}
+	.board01{width:560px; height:290px; 
+margin:10px 75px 9px 0px;}
+/* 게시판1 */
+	.board01 div.grap h2{color:#333333; display:block; font-size:20px; font-weight:bold;  line-height:1.2; margin-bottom:20px; float:left;}
+	.board01 div.grap p.more a{background-image: url(../images/micon01.png); display:block; height:32px; width:32px; float:right; margin-top:0;}
+	.board01 div.grap p.more a span{visibility:hidden;}
+	/* 게시글 부분 */
+	#mnews_01{display:block; width:100%; padding-top:20px;}
+	#mnews_01 ul{margin-top:30px;}
+	#mnews_01 ul li{font-size:14px; text-align:left; border-bottom:1px solid #d7d7d7; display:block; line-height:33px; padding:3px 0; box-sizing:border-box;}
+	#mnews_01 ul li a{display:inline-block; float:left; line-height:33px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; width:85%; vertical-align:middle; color:#666666;}
+	#mnews_01 ul li a span{color:#3378c1; display:inline-block; line-height:33px; padding-right:12px; vertical-align:middle; } 	#mnews_01 ul li a:hover{color:#000000;}
+	
+ /* 게시판2 */
+	.board02{width:560px; height:290px; margin:10px 0px 9px 0px}
+
+	.board02 div.grap h2{color:#333333; display:block; font-size:20px; font-weight:bold;  line-height:1.2; margin-bottom:20px; float:left;}
+	.board02 div.grap p.more a{background-image: url(../images/micon01.png); display:block; height:32px; width:32px; float:right; margin-top:0;}
+	.board02 div.grap p.more a span{visibility:hidden;}
+
+	/* 해외기술동향 시작 */
+	#re_box2{width:1200px; height:290px; margin-top:60px;}
+		.re_trend{width:552px; height:290px; border:1px solid #aaaaaa; border-top:3px solid #000000;margin-right:75px;}
+		div.tre_head{padding:15px 35px 10px; border-bottom:1px solid #e5e5e5; height:20px;}
+		.tre_head h2{font-weight:bold; line-height:20px; font-size:16px;}
+/* 	.tre_head a{background:url(../images/bul_lnk.svg) no-repeat;  background-position: 10px bottom; display:block;} */
+		.re_trend .tre_head a span{font-size:0px; visibility:hidden;}
+		.tre_txt{margin: 15px 32px 24px;}
+		.tre_txt .img{width:30%;}
+		.tre_txt .img img{width:149px; height:99px;}
+		.tre_txt .text{margin-left:5%; width:65%; }
+		.tre_txt .text a{display: block; line-height:1.5em;
+    text-align: left; color:#555555;font-size:13px;}
+		.tre_txt .text a strong{display:block; font-size:14px; font-weight:bold; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:#000000;}	
+		.tre_txt .text a:hover{text-decoration:underline;}
+		
+		.re_trend ul{clear:both; margin:30px 32px 7px;}
+		.re_trend ul li{margin:10px 0px; border-top:1px solid #BBBBBB;}
+		.re_trend ul li a{color: #000000;  font-size: 14px; line-height: 2em;}	
+		.re_trend ul li a:hover{text-decoration:underline;}	
+		
+	/* 전문학술지 */
+		.re_journal{width:553px; height:290px; border:1px solid #aaaaaa; border-top:3px solid #000000;}
+		.re_journal .tre_head a span{font-size:0px; visibility:hidden;}
+		.opr{padding:30px 25px 10px; width:68%; border-right:1px solid #e5e5e5;}
+		.opr_tit h3{display:block;margin-left:0;}
+		.opr_tit h3 strong{margin-bottom: 8px;
+    font-size: 25px; color: #0f417b;
+    line-height: 25px;
+    letter-spacing: -1px; padding-right:5px;}
+		.opr_tit h3 span{line-height:18px; font-size:13px; color:#3d3d3d; border-bottom:1px solid #999999;}
+		.opr_tit h3 span em{font-style:normal;font-size:12px; color:#676767;}
+		
+		.opr .img img{margin-top:27px;border:1px solid #aaaaaa; display:inline; margin-right:10px;}
+		.opr ul{margin-top:9px;}
+		.opr ul li{padding:15px 0px;}
+		.opr ul li a{color:#676767;}
+		.opr ul li a:hover{text-decoration:underline;}
+		
+		.osj h3{ color: #000;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+	text-align:center;}
+		.osj{ padding: 35px 1px 24px;}
+		.osj_img a{text-align:center}
+		.osj_img a img{border:1px solid #aaaaaa; margin-top:20px;}
+		
+		
+		/* 국내연구거점시작 */
+		#re_box3{margin-top:50px; width:1200px; height:315px; background-color:#000000;}
+		#re_box3 .network_wrap{width:860px; height:221px; background:url(../images/bg_mabroad.jpg) repeat; padding:47px;}
+		#re_box3 .net_box1{width:220px; }
+		#re_box3 .net_box1 h2 img{float:left;}
+		#re_box3 .net_box1 h2{vertical-align:middle; border-bottom:3px solid #8d8e91; padding-bottom:5px; width:220px; height:50px;}
+		#re_box3 .net_box1 h2 p{font-size:14px; float:left; padding:3px 0 0 8px;}
+		#re_box3 .net_box1 h2 p em{font-size:11px; display:block: color:#616161;}
+		#re_box3 .net_box1 h2 p strong{color:3e3e3e; font-size:16px;}
+		#re_box3 .net_box1 ul{margin-top:15px;}
+		#re_box3 .net_box1 ul li{border-bottom:1px solid #c2c2c2; width:100%;}
+		#re_box3 .net_box1 ul li a{display: block;
+    font-size: 13px; color:#666666;
+    padding: 6px 0 6px 11px;}
+	#re_box3 .net_box1 ul li a:hover{text-decoration:underline;}
+		#re_box3 .net_box1 ul li.fir_lnk{background:url(../images/mnetwork_list_bul.png) no-repeat; text-decoration: underline; background-position:0 50%;}
+		/* 가운데 지도 */
+		#re_box3 .network_wrap .net_box2{background:url(../images/map1.png) no-repeat; width:475px; height:230px; margin-left:100px;}
+		
+		#re_box3 .network_wrap .net_box2 .map_info{margin-left: 322px;
+    margin-top: 19px;}
+    #re_box3 .network_wrap .net_box2 .map_info h3{color:#ac0808;
+    font-size: 17px;
+    font-weight: bold;}
+	  #re_box3 .network_wrap .net_box2 .map_info p{color: #b3b3b3;
+    font-size: 13px;
+    line-height: 17px;
+    margin: 5px 0 10px;}
+	 #re_box3 .network_wrap .net_box2 .map_info p strong{color:#000000; display:block;}
+	#re_box3 .network_wrap .net_box2 .map_info a{display:block;background: #ffffff;
+    color: #333333;
+ border: 1px solid #b1b1b1;
+    padding: 5px 20px; width:65px; font-size:13px;}
+	#re_box3 .network_wrap .net_box2 .map_info a:hover{text-decoration:underline;}
+	.network_right{width:246px; height:315px;}
+	.network_right img{width:246px; height:315px;}
+	
+	/* 연구선 */
+	#re_box4{width:1200px; height:170px; padding:45px 0; border-top: 1px solid #ac0808; border-bottom: 1px solid #ac0808;  margin-top:50px;}
+	#re_box4 .ship_tit{width:20%;}
+	#re_box4 .ship_tit span{color:#222222; font-size:13px; line-height:15px;}
+	#re_box4 .ship_tit h2{font-size:30px; padding-top:15px; color:#222222; line-height:32px; font-weight:bold;}
+	#re_box4 .ship_tit a{display:block; border:1px solid #bababa; padding:8px; line-height:1; width:70px; font-size:13px; color:#333333; margin-top:22px; }
+	#re_box4 .ship_tit a:hover{text-decoration:underline;}
+	#re_box4 ul{width:80%;}
+	#re_box4>ul>li{width:20%; float:left;}
+	#re_box4>ul>li>a>img{display:block; padding-top:10px;}
+	#re_box4 ul li a span{padding-left:21px; color:#2B2C32;}
+	#re_box4 ul li a:hover span{font-weight:bold;}
+	
+	
+	 /* 링크서비스 */
+	 
+	#re_box5{padding:45px 0; width:1200px; height:219px;}
+	#re_box5 .link_tit{width:20%;}
+	#re_box5 .link_tit span{font-size:13px; line-height:15px; padding-left:2px;}
+	#re_box5 .link_tit h2{font-size:30px; padding-top:3px; color:#333333; font-weight:bold; line-height:32px;}
+	#re_box5 p.control{display:block; clear:both; margin-top:31px; height:100px;}
+	#re_box5 p.control a.pre_btn{background:url(../images/btn-left.png) no-repeat; height:31px;}
+	#re_box5 p.control a.pre_btn span{visibility:hidden;}
+	#re_box5 p.control a.nex_btn{background:url(../images/btn-right.png) no-repeat; height:31px; margin-left:20px;}
+	#re_box5 p.control a.nex_btn span{visibility:hidden;}
+	
+	#re_box5 .grap{width:80%; margin-top:-30px; overflow:hidden;}
+	#re_box5>.grap>.link_box>ul{width:100000px;}
+	#re_box5>.grap>.link_box>ul>li{
+    border: medium none;
+    display: inline-block;
+    overflow: hidden;
+    padding: 20px 25px;
+    position: relative;
+    width: 243px;}
+	#re_box5>.grap>.link_box>ul>li>a{color:#555555;}
+	#re_box5>.grap>.link_box>ul>li>a>span{ display:block; font-size:13px; line-height:15px; }
+	#re_box5>.grap>.link_box>ul>li>a>span>b{ display:block;color: #363636;
+    font-size: 14px; line-height: 16px; }
+	#re_box5>.grap>.link_box>ul>li>a>span>em{ display: block;
+    padding: 5px 0;
+    text-decoration: underline;}
+	#re_box5>.grap>.link_box>ul>li>a>span>strong{display: block;
+    height: 34px;
+    overflow: hidden;}
+	#re_box5>.grap>.link_box>ul>li>a:hover span{color:#000000; font-weight:bold;}
+	
+	
+	/* 주요연구사업 */
+	#re_box6{width:100%; height:281px; background:url(../images/bg_mbusiness.jpg) no-repeat; position:relative; z-index:-1;}
+	#re_box6 .re_business{background-color: #a80b0b; border: medium none;
+    height: 268px; margin: 0; padding: 28px; width: 265px; position:relative; top:-90px;}
+	#re_box6 .re_business p{color:#ffffff;display: block;font-size: 13px; font-weight: bold;line-height: 1.2; margin-bottom:25px;}
+	#re_box6 .re_business p>span{color: #eaf1fd; font-weight: normal;
+    margin: 0 7px; font-size:12px;}
+	#re_box6 .re_business h2{color:#ffffff; font-size:27px;}
+	#re_box6 p.control{margin-top:100px;}
+	#re_box6 p.control a[rel="prev"]{display:block; width:31px; height:31px; font-size:0px; background:url(../images/bg_control.png) no-repeat;background-position: 0px 0px; }
+	#re_box6 p.control a[rel="next"]{display:block; width:31px; height:31px; font-size:0px; background:url(../images/bg_control.png); background-position: 68px 0px;}
+	#re_box6 p.control a[target="_blank"]{display:block; width:27px; height:31px; font-size:0px; background:url(../images/bg_control.png);background-position: 27px 0px; margin-left:7px;}
+	/* 연구사업 기사 */
+	.re_busi_box1>.item{height: 281px; padding: 0 21px; width: 350px;}
+	.re_busi_box1>.item a{ display: block; height: 100%; width: 100%;}
+	.re_busi_box1>.item a .info{display: block; padding: 20px; text-transform: uppercase;width: 100%;}
+	.re_busi_box1>.item a .info b.tit{height:50px; color:#ffffff;}
+	.re_busi_box1>.item a .info b.tit span.cat{font-size:12px; display:block;}
+	.re_busi_box1>.item a .info b.tit span.cat em{font-size:20px;}
+	.re_busi_box1>.item a .info span.text{color: #b9bcbf; display: block; font-size: 13px; line-height: 1.2; margin-top:10px;}
+	.re_busi_box1>.item a .info span.depart{ color: #bbbfbf; display: block; font-size: 13px; line-height: 1.2;
+    margin-top: 45px;}
